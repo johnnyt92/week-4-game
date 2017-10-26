@@ -1,3 +1,9 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+
 header {
 	text-align: center;
 	font-weight: bold;
@@ -12,7 +18,7 @@ header {
 /*	margin: 0;*/
 /*	height: auto;*/
 /*	float: left;*/
-	padding-top: 3%;
+	float: left;
 }
 
 #W, #wins, #losses, #L {
@@ -32,8 +38,25 @@ header {
 
 }
 
-.target, .score, #yourScore, #targetScore {
+/*.target, .score, #yourScore, #targetScore {
 	font-weight: bold;
 	display: inline;
 	font-size: 25px;
+}*/
+
+#target, #targetScore, #score, #yourScore {
+	clear: both;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 25px;
+
 }
+
+#target {
+	margin-left: 17%;
+}
+
+
+#score {
+	text-align: right;
+	margin-left: 15%;
