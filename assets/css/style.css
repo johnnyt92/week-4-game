@@ -1,34 +1,39 @@
 header {
 	text-align: center;
 	font-weight: bold;
+	padding-top: 5%;
 }
 
 .middle {
-	margin-left: 20px;
+	margin-left: 17%;
+/*	margin-right: 19%*/
 	max-width: auto;
-/*	display: inline;*/
-	margin: 0;
-	height: auto;
-	float: left;
+	display: inline-block;
+/*	margin: 0;*/
+/*	height: auto;*/
+/*	float: left;*/
+	padding-top: 3%;
 }
 
-#wins, #losses {
+#W, #wins, #losses, #L {
 	font-weight: bold;
 	display: inline;
 	font-size: 25px;
 }
 
-#losses {
+#W {
+	margin-left: 17%;
+}
+
+
+#L {
 	text-align: right;
 	margin-left: 15%;
+
 }
 
-#targetPoints, #points {
+.target, .score, #yourScore, #targetScore {
 	font-weight: bold;
 	display: inline;
 	font-size: 25px;
-}
-
-#points {
-	margin-left: 15%;
 }
