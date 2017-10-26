@@ -1,0 +1,34 @@
+header {
+	text-align: center;
+	font-weight: bold;
+}
+
+.middle {
+	margin-left: 20px;
+	max-width: auto;
+/*	display: inline;*/
+	margin: 0;
+	height: auto;
+	float: left;
+}
+
+#wins, #losses {
+	font-weight: bold;
+	display: inline;
+	font-size: 25px;
+}
+
+#losses {
+	text-align: right;
+	margin-left: 15%;
+}
+
+#targetPoints, #points {
+	font-weight: bold;
+	display: inline;
+	font-size: 25px;
+}
+
+#points {
+	margin-left: 15%;
+}
