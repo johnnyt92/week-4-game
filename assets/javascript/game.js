@@ -69,7 +69,6 @@ var checkWin = function () {
 		console.log("You Lost")
 		loss++
 		$("#losses").html(loss);
-		currentScore = 0;
 		startGame();
 
 	}
@@ -79,7 +78,6 @@ var checkWin = function () {
 		console.log("You win!")
 		wins++
 		$("#wins").html(wins);
-		currentScore = 0;
 		startGame();
 	}
 

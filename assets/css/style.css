@@ -4,20 +4,17 @@ body {
 }
 
 
-header {
+#header {
+	font-size: 50px;
 	text-align: center;
 	font-weight: bold;
-	padding-top: 5%;
+	padding-bottom: 2%;
 }
 
 .middle {
 	margin-left: 17%;
-/*	margin-right: 19%*/
 	max-width: auto;
 	display: inline-block;
-/*	margin: 0;*/
-/*	height: auto;*/
-/*	float: left;*/
 	float: left;
 }
 
@@ -38,12 +35,6 @@ header {
 
 }
 
-/*.target, .score, #yourScore, #targetScore {
-	font-weight: bold;
-	display: inline;
-	font-size: 25px;
-}*/
-
 #target, #targetScore, #score, #yourScore {
 	clear: both;
 	font-weight: bold;
@@ -59,4 +50,4 @@ header {
 
 #score {
 	text-align: right;
-	margin-left: 15%;
+	margin-left: 12%;
